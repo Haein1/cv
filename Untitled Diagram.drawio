@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T00:37:31.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="17.5.0" etag="YnctfIjyEJtqLn09wDI8" type="github"><diagram id="DE5f4cF-vr8qHdfnlCZu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-02T01:13:28.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="zmQnj2xAAAEliWAtRNlG" version="17.5.0" type="github">
+  <diagram id="DE5f4cF-vr8qHdfnlCZu" name="Page-1">
+    <mxGraphModel dx="1278" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOHpjSZyPCdbd3s-f2V-2" target="GyOHpjSZyPCdbd3s-f2V-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-2" value="按照进入顺序对各个进程排序；&lt;br&gt;初始化进程队列，将排好序的队首进程入队；&lt;br&gt;时间time 记录为队列中第一个进程的进入时间；&lt;br&gt;平均周转时间设为0；&lt;br&gt;带权平均周转时间设为0." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GyOHpjSZyPCdbd3s-f2V-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="80" as="sourcePoint" />
+            <mxPoint x="557" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOHpjSZyPCdbd3s-f2V-4" target="GyOHpjSZyPCdbd3s-f2V-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-4" value="从进程队列取出队首进程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-6" value="计算完成时间、周转时间、带权周转时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOHpjSZyPCdbd3s-f2V-8" target="GyOHpjSZyPCdbd3s-f2V-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-8" value="进程队列是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GyOHpjSZyPCdbd3s-f2V-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="575" as="sourcePoint" />
+            <mxPoint x="558" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="640" />
+              <mxPoint x="400" y="560" />
+              <mxPoint x="400" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-12" value="no" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOHpjSZyPCdbd3s-f2V-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOHpjSZyPCdbd3s-f2V-13" target="GyOHpjSZyPCdbd3s-f2V-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-13" value="打印该进程的完成时间、周转时间、带权周转时间等信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-15" value="yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-20" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-21" value="让排好序的下一个进程进入进程队列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="117.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.496;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GyOHpjSZyPCdbd3s-f2V-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="554.5" y="490" as="sourcePoint" />
+            <mxPoint x="554.5" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="554.5" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyOHpjSZyPCdbd3s-f2V-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="558.25" y="570" as="sourcePoint" />
+            <mxPoint x="558.25" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
