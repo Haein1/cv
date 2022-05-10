@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T12:45:46.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="RkcKXrJey7HIuEir8VI-" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T14:08:50.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="iqHJUYlbgpBQU8AekRmH" version="17.5.0" type="github" pages="2">
   <diagram id="gvPUqtbvnG_lbR_t3h4-" name="Page-1">
     <mxGraphModel dx="1278" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,6 +40,123 @@
         </mxCell>
         <mxCell id="kOb8g3djiOKtOQ_URUE0-13" value="初始化函数Prepare()结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DDc9rxxJl5AI-2xx39Tj" name="Page-2">
+    <mxGraphModel dx="1278" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="heAdaT_YitP8tnhVknw4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-1" value="银行家算法开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-4" target="heAdaT_YitP8tnhVknw4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-4" value="调用初始化函数Prepare()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-5" target="heAdaT_YitP8tnhVknw4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-5" value="输入一个计划之后进行资源分配的进程序列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-7" target="heAdaT_YitP8tnhVknw4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-7" value="进行安全性检查；&lt;br&gt;是否通过安全性检查？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-9" target="heAdaT_YitP8tnhVknw4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-9" value="输入请求分配资源的进程号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-11" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="530" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-12" target="heAdaT_YitP8tnhVknw4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-12" value="输入该进程请求分配的各种资源的数量" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="480" as="sourcePoint" />
+            <mxPoint x="320" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="480" />
+              <mxPoint x="480" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-15" value="NO" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="450" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-16" target="heAdaT_YitP8tnhVknw4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-16" value="请求分配的各种资源&lt;br&gt;数量是否小于等于Need数组中记录的值？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="810" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-18" target="heAdaT_YitP8tnhVknw4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-18" value="请求分配的各种资源&lt;br&gt;数量是否小于等于目前系统可提供的资源数？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="940" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-20" value="YES" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="900" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="heAdaT_YitP8tnhVknw4-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-21" value="进行资源分配&lt;br&gt;Available[k] = Available[k] - Request[k];&lt;br&gt;Allocation[a][k] = Allocation[a][k] + Request[k];&lt;br&gt;Need[a][k] = Need[a][k] - Request[k];" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1070" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-23" value="YES" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1030" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-26" value="银行家算法函数结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="850" as="sourcePoint" />
+            <mxPoint x="320" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="850" />
+              <mxPoint x="510" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="980" as="sourcePoint" />
+            <mxPoint x="320" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="980" />
+              <mxPoint x="110" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-29" value="NO" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="830" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="heAdaT_YitP8tnhVknw4-31" value="NO" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="960" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
