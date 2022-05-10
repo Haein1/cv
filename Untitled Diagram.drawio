@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T12:37:28.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="17.5.0" etag="cbzK4mAOdNOGNUIcGIQ2" type="github"><diagram id="gvPUqtbvnG_lbR_t3h4-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-10T12:45:46.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="RkcKXrJey7HIuEir8VI-" version="17.5.0" type="github">
+  <diagram id="gvPUqtbvnG_lbR_t3h4-" name="Page-1">
+    <mxGraphModel dx="1278" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kOb8g3djiOKtOQ_URUE0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-1" value="初始化函数Prepare（）开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kOb8g3djiOKtOQ_URUE0-4" target="kOb8g3djiOKtOQ_URUE0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-4" value="用户输入目前各种资源的可用量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kOb8g3djiOKtOQ_URUE0-5" target="kOb8g3djiOKtOQ_URUE0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-5" value="用户输入刚开始时每个进程宣称自己想要的最大资源数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kOb8g3djiOKtOQ_URUE0-7" target="kOb8g3djiOKtOQ_URUE0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-7" value="用户输入目前已经给每个进程分配的资源数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kOb8g3djiOKtOQ_URUE0-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-9" value="求出每个进程之后还会请求的各种资源的最大数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kOb8g3djiOKtOQ_URUE0-13" value="初始化函数Prepare()结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
